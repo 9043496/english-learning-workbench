@@ -1,0 +1,4 @@
+interface:
+  display_name: "英语教学依据"
+  short_description: "维护David已确认的教学理念、量化评价口径与声音标准，作为教材与反馈的共同依据"
+  default_prompt: "使用 $english-learning-coach 完成本环节，读取当前项目约束并提供实际结果与未完成事项。"

@@ -1,0 +1,5 @@
+# Only the declared Auth option is pushed; no database/container/hosting changes.
+project_id = "workbench-free-cloud-verification"
+
+[auth]
+enable_signup = false

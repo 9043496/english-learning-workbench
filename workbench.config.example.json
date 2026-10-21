@@ -1,0 +1,10 @@
+{
+  "mode": "local",
+  "data_dir": "/absolute/path/to/private/data",
+  "workspace_dir": "/absolute/path/to/private/workspace",
+  "base_url": "http://127.0.0.1:8780",
+  "time_zone": "Asia/Seoul",
+  "profile_file": "/absolute/path/to/private/learner-profile.json",
+  "learner_id": "configure-only-for-cloud-mode",
+  "coach_credentials_file": "/absolute/path/to/private/coach-credentials.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "english-learning-workbench",
+  "private": true,
+  "description": "Agent-assisted English learning workbench: local Python service, optional cloud backend, six teaching skills",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "test:integration": "node tests/workbench-integration.cjs && node tests/features21-integration.cjs",
+    "test:backend": "python3 -B -m unittest discover -s local -p \"test_*.py\" -v",
+    "start": "python3 scripts/run.py",
+    "setup": "python3 scripts/install.py",
+    "test:skills": "node --test --test-concurrency=1 skills/english-learning-publish/tests/workflow.test.mjs",
+    "test:install": "python3 -B -m unittest discover -s scripts/tests -v"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "6.2.2",
+    "jsdom": "26.1.0"
+  },
+  "version": "2.1.0"
+}

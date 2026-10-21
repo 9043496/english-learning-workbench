@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材音频制作"
+  short_description: "按场景与已批准风格制作自然全文和逐句音频，记录提示词、声线与核对证据"
+  default_prompt: "使用 $english-learning-audio 完成本环节，读取当前项目约束并提供实际结果与未完成事项。"

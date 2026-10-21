@@ -1,0 +1,57 @@
+{
+  "inputs": [
+    {
+      "id": "input_01",
+      "date": "2026-10-15",
+      "title": "How an Animated Film Is Made",
+      "title_cn": "工程验证夹具（非正式教材）",
+      "word_count": 275,
+      "level": "A2",
+      "body": [
+        "Many people love animated films.",
+        "But how do people make them?"
+      ],
+      "keywords": [
+        {
+          "en": "character",
+          "cn": "角色"
+        }
+      ],
+      "comprehension": [
+        {
+          "q": "How long does it take to make an animated film?",
+          "ref": "It often takes three or four years."
+        }
+      ],
+      "polysemy": [
+        {
+          "sentence": "A good story is the heart of a good film.",
+          "word": "heart",
+          "answer_cn": "核心（非心脏）"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "input_01",
+      "items": [
+        {
+          "n": 1,
+          "text": "Many people love animated films.",
+          "audio": "s01.mp3"
+        },
+        {
+          "n": 2,
+          "text": "But how do people make them?",
+          "audio": "s02.mp3"
+        }
+      ]
+    }
+  ],
+  "vocab": [],
+  "progress": [],
+  "shadowing": [],
+  "dictation": [],
+  "dictation_tasks": []
+}

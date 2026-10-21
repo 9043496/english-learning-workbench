@@ -1,0 +1,28 @@
+name: Isolated tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            cloud/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg openssl
+      - run: npm ci
+      - run: npm test
+      - run: npm run test:integration
+      - run: python3 -B -m unittest discover -s scripts/tests -v
+      - run: python3 -B -m unittest discover -s local -p 'test_*.py' -v
+      - run: npm run test:skills
+      - run: npm ci && npm test
+        working-directory: cloud

@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材校验与发布"
+  short_description: "检查正文与真实音频，通过现有受控接口增量发布，再回读记录和全部音频核验"
+  default_prompt: "使用 $english-learning-publish 完成本环节，读取当前项目约束并提供实际结果与未完成事项。"

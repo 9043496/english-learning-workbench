@@ -1,0 +1,16 @@
+{
+  "name": "workbench-free-cloud-verification",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "verify:remote": "node tools/verify-remote.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.10",
+    "@supabase/supabase-js": "2.118.0",
+    "supabase": "2.121.0",
+    "wrangler": "4.151.2"
+  }
+}

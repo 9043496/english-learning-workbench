@@ -1,0 +1,4 @@
+interface:
+  display_name: "英语素材与教材"
+  short_description: "优先选择可使用的人类分级材料，制作完整正文、句译、语境词包和英文选择题"
+  default_prompt: "使用 $english-learning-materials 完成本环节，读取当前项目约束并提供实际结果与未完成事项。"

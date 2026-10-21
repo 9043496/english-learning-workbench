@@ -1,0 +1,12 @@
+{
+  "name": "Learner",
+  "starting_level": "A2",
+  "daily_articles": 2,
+  "daily_study_minutes_target": 120,
+  "interests": ["everyday life", "animation", "film", "art"],
+  "time_zone": "Asia/Seoul",
+  "audio_style": "natural restrained everyday dialogue",
+  "approved_audio_styles": [],
+  "difficulty_thresholds": null,
+  "notes": "Starter teaching profile; confirm goals, level, audio style and grading rules with the learner. No automatic level promotion or fabricated scores."
+}
